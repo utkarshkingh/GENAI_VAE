@@ -34,8 +34,8 @@ This project demonstrates image compression and generation using Variational Aut
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/vae-image-compression.git
-   cd vae-image-compression
+   git clone https://github.com/utkarshkingh/GENAI_VAE.git
+   
 
 
 
@@ -47,7 +47,8 @@ This project demonstrates image compression and generation using Variational Aut
 
 
 3 . Dataset Preparation
-    Download the Character Font Images Data Set from the UCI Machine Learning Repository or use your own collection of font images. Organize the images into a folder structure similar to:
+    Download the Character Font Images Data Set from the UCI Machine Learning Repository or use your own collection of font images. Organize the images into a   
+    folder structure similar to:
 
 ```console
 Font/
