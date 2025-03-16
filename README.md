@@ -50,7 +50,11 @@ This project demonstrates image compression and generation using Variational Aut
 
 Download the Character Font Images Data Set from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Character+Font+Images) or use your own collection of font images. Organize the images into a folder structure similar to the following:
 
-```console
+## 3. Dataset Preparation
+
+Download the Character Font Images Data Set from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Character+Font+Images) or use your own collection of font images. Organize the images into a folder structure similar to the one below:
+
+```bash
 Font/
   all/
     class1/
@@ -61,6 +65,7 @@ Font/
       image1.png
       image2.png
       ...
+
 
 
 
