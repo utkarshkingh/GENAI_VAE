@@ -1,3 +1,4 @@
+
 # Image Compression and Generation using Variational Autoencoders
 
 This project demonstrates image compression and generation using Variational Autoencoders (VAEs) implemented in Python with PyTorch. The main goal is to compress images into a latent space and then generate new images or reconstruct existing ones. The project uses a dataset of computer-generated font images from the [Character Font Images Data Set](https://archive.ics.uci.edu/ml/datasets/Character+Font+Images) available on the UCI Machine Learning Repository.
@@ -46,15 +47,11 @@ This project demonstrates image compression and generation using Variational Aut
    pip install torch torchvision matplotlib tqdm
 
 
-## 3. Dataset Preparation
+3 . Dataset Preparation
+    Download the Character Font Images Data Set from the UCI Machine Learning Repository or use your own collection of font images. Organize the images into a   
+    folder structure similar to:
 
-Download the Character Font Images Data Set from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Character+Font+Images) or use your own collection of font images. Organize the images into a folder structure similar to the following:
-
-## 3. Dataset Preparation
-
-Download the Character Font Images Data Set from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Character+Font+Images) or use your own collection of font images. Organize the images into a folder structure similar to the one below:
-
-```bash
+```console
 Font/
   all/
     class1/
@@ -62,10 +59,8 @@ Font/
       image2.png
       ...
     class2/
-      image1.png
-      image2.png
       ...
-
+```
 
 
 
