@@ -46,9 +46,9 @@ This project demonstrates image compression and generation using Variational Aut
    pip install torch torchvision matplotlib tqdm
 
 
-3 . Dataset Preparation
-    Download the Character Font Images Data Set from the UCI Machine Learning Repository or use your own collection of font images. Organize the images into a   
-    folder structure similar to:
+## 3. Dataset Preparation
+
+Download the Character Font Images Data Set from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Character+Font+Images) or use your own collection of font images. Organize the images into a folder structure similar to the following:
 
 ```console
 Font/
@@ -58,8 +58,9 @@ Font/
       image2.png
       ...
     class2/
+      image1.png
+      image2.png
       ...
-```
 
 
 
